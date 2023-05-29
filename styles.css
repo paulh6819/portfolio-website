@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Light.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ body {
+    font-family: 'Neue Montreal';
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+        }
+
+        .navbar {
+            
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .navbar a:hover {
+            color: #f2f2f2;
+        }
+
+        .header {
+            background-image: url('path/to/your/header/image.jpg');
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 2em;
+        }
+  
+ 
+        .header p {
+            color: white;
+        }
+
+        .portfolio {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .portfolio div {
+            margin: 15px;
+        }
+
+        .portfolio img {
+            max-width: 300px;
+        }
+
+
+        #cat{
+
+            margin-bottom: 1px;
+        }
+
+        #dog{
+            margin-top: 0px;
+        }
+
+
+        .navbar {
+            
+            justify-content: space-evenly;
+            background-color: #333;
+            padding: 20px;
+        }
+        
+        .navbar div {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            
+            margin-bottom: 10px;  /* Adjust this value to your preference */
+        }
+        
+        .navbar div:hover {
+            transform: scale(1.2);
+        }
+        
+
+    
+       
+       
+        #dog {
+            color: #000;
+           
+        }
+        
+        #glitch-word {
+            position: relative;
+            color: #000;
+            animation: colorize 1s infinite linear alternate;
+        }
+        
+        .glitch {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background: black;
+            overflow: hidden;
+            animation: glitch 500ms infinite linear alternate-reverse;
+        }
+
+        .siteHeader_nav ol li ._text {
+            position: relative;
+            transition-property: opacity;
+            transition-duration: .4s;
+            transition-timing-function:cubic-bezier(0.1, 0.4, 0.2, 1)
+        }
+        
+        .siteHeader_nav ol li ._text::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -5px;
+            top: -5px;
+            width: calc(100% + 10px);
+            height:calc(100% + 10px)
+        }
+        
+        @media (hover: hover) {
+            .siteHeader_nav ol li ._text:hover {
+                opacity:.25
+            }
+        }
+        
+        .siteHeader_nav ol li.is-selected ._text {
+            opacity:0
+        }
+        
+
+        .siteHeader_nav ol li a {
+            text-decoration: none;
+        }
+
+        @keyframes staticFadeIn {
+            0% { opacity: 0; filter: brightness(0%); transform: scale(1) }
+            30% { opacity: 0.1; filter: brightness(80%); transform: scale(1.08)}
+            50% { opacity: 0.3; filter: brightness(90%); }
+            70% { opacity: 0.5; filter: brightness(100%);transform: scale(1)}
+            100% { opacity: 1; filter: brightness(100%);  }
+         
+           
+
+          }
+
+
+    
+
+
+
+       #logo{
+        height: 350px;
+        animation: staticFadeIn 3s linear;
+       }
+
+
+
+
+       
+      
+      
