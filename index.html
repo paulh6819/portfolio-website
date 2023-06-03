@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <link rel="icon" href="favicon.ico" type="images/logo.jpg">
 </head>
 <body>
     <header>
@@ -17,20 +17,30 @@
     <main>
         <!-- Your content goes here --> 
         <img src="images/logo.jpg" id="logo" alt="My web deveopper logo"  >
-        <div class="navbar">
-            <div><a href="#">Home</a></div>
-            <div><a href="#">Portfolio</a></div>
-            <div><a href="#">Contact</a></div>
-        </div>
-       
- 
+     
+  
+        <div class="function-based-values-demo">
+            <div class="el" data-x="50"><a href="#">Home</a></div>
+            <div class="el" data-x="100"><a href="#">Portfolio</a></div>
+            <div class="el" data-x="150"><a href="#">Contact</a></div>
+            <div class="el" data-x="200"></div>
+            <div class="el" data-x="250"></div>
+          </div>
     
+
+
+
+        <div class="stagger-visualizer"></div>
+
     </main>
     
     <footer>
         <p>Copyright &copy; 2023 by Paul Henderson</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script type="module" src="app.js"></script>
+
+
 </body>
 </html>
