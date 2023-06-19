@@ -1,5 +1,30 @@
 
+let graphicDesignElement = document.getElementById("graphic-design");
 
+if (graphicDesignElement){
+
+document.getElementById("graphic-design").addEventListener('click', function(){
+  window.location.href = "graphic-design.html "
+} );} else {
+  console.log("there is no graphic design clickable poster here")
+}
+
+document.addEventListener('DOMContentLoaded', (event) =>{
+  const hamburger = document.querySelector('.hamburger');
+ 
+  
+  const menu = document.querySelector('.menu');
+ 
+  hamburger.addEventListener('click',function (){
+    menu.classList.toggle('open');
+
+   
+
+  });
+  });
+
+  
+  
 let viewPortWidth = window.innerWidth = window.innerWidth;
 
 let translateXValue = 50;
@@ -34,21 +59,25 @@ setTimeout( () => {
       return el.getAttribute('data-x');
     },
     translateY: function(el, i) {
-      return 50 + (-50 * i);
+      return 45 + (-50 * i);
     },
-    scale: function(el, i, l) {
-      return (l - i) + .1;
-    },
-    rotate: function() { return 45; },
+ 
+    rotate: function() { return 55; },
     borderRadius: function() { 
       return ['50%', anime.random(3, 70) + '%']; 
     },
-    duration: function() { return anime.random(1200, 1800); },
+    scale: function() {
+      return anime.random(1.5, 2.5); // The scale will be a random number between 0.5 and 2
+    },
+    duration: function() { return anime.random(1000,30000); },
     delay: function() { return anime.random(0, 400); },
    
     
+    
   });
 }, 1500);
+
+
 
 
 anime({
@@ -101,7 +130,7 @@ const staggersAnimation = anime.timeline({
 
 .add({
   targets: '.stagger-visualizer div',
-  opacity: [1, 0],  // Animate opacity from 1 to 0
+  opacity: [.5, 0],  // Animate opacity from 1 to 0
   easing: 'easeInOutQuad',  // Use the 'easeInOutQuad' easing function
   duration: 200
 })
@@ -114,3 +143,6 @@ setTimeout(function() {
 }, 5000);
 
 */
+
+
+
