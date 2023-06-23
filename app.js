@@ -59,7 +59,7 @@ setTimeout( () => {
       return el.getAttribute('data-x');
     },
     translateY: function(el, i) {
-      return 45 + (-50 * i);
+      return 45 + (-80 * i);
     },
  
     rotate: function() { return 55; },
@@ -69,7 +69,7 @@ setTimeout( () => {
     scale: function() {
       return anime.random(1.5, 2.5); // The scale will be a random number between 0.5 and 2
     },
-    duration: function() { return anime.random(1000,30000); },
+    duration: function() { return anime.random(1000,15000); },
     delay: function() { return anime.random(0, 400); },
    
     
@@ -143,6 +143,8 @@ setTimeout(function() {
 }, 5000);
 
 */
+
+
 
 
 

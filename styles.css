@@ -200,9 +200,11 @@ html{
         height: 7px;
         background-color: rgb(201, 215, 215);
       position: absolute;
-      top: 495px;
+      top: 595px;
+      
        }
 
+      
 
  @media screen and (min-width: 1000px) {
     .el{
@@ -367,7 +369,7 @@ html{
 
     .footer-homepage{
         position: relative;
-        top: -70px;
+        bottom: -1px;
     }
 
 
@@ -399,3 +401,33 @@ html{
         width: 100%;
         height: auto;
     }
+
+    @media (min-width: 600px){
+
+        .portfolio-a{
+            width: 60%;
+            margin: auto;
+        }
+    }
+
+    @media (min-width: 1200px){
+
+        .portfolio-a{
+            width: 40%;
+            margin: auto;
+        }
+    }
+
+
+
+    #home{
+
+        margin-bottom: 100px;
+    }
+
+
+#graphic-design-hamburger-bar{
+    display: flex;
+    margin: auto;
+   
+}
