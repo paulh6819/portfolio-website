@@ -69,8 +69,8 @@ setTimeout( () => {
     scale: function() {
       return anime.random(1.5, 2.5); // The scale will be a random number between 0.5 and 2
     },
-    duration: function() { return anime.random(1000,15000); },
-    delay: function() { return anime.random(0, 400); },
+    duration: function() { return anime.random(1000,5000); },
+    delay: function() { return anime.random(1,300); },
    
     
     

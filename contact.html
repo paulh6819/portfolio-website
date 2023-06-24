@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="images/logo.jpg">
+</head>
+<body>
+    <header class="header-for-contact-page">
+        <div>
+        <h1>Paul Henderson</h1>
+        <h4>Designer & Developer</h4>
+    </div>
+        <button class="hamburger">&#9776;</button>
+        
+        <nav class="menu" >
+          <a href="index.html">home</a>
+          <a href="portfolio.html">portfolio</a>
+          <a href="about.html">about</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Contact Me</h2>
+        <form action="server-side-script" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div  class="socials-div">
+        <p>Or you can reach me at my socials:</p>
+        <a href="https://www.instagram.com/hendos_photos/" target="_blank">instagram</a> <!-- Remember to replace the link -->
+        <!-- Add other social links as required --><a href="https://www.facebook.com/paul.henderson.71697092" target="_blank">facebook</a>
+        <a href="https://www.linkedin.com/in/paul-henderson-548747141/" target="_blank">linkedin</a>
+        <p class="footer">Copyright &copy; 2023 by Paul Henderson</p>
+        </div>
+    </main>
+    
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -190,6 +190,7 @@ html{
        #logo{
         height: 320px;
         animation: staticFadeIn 4s linear;
+        border-radius: 5px;
        
        }
 
@@ -296,8 +297,13 @@ html{
         border-width: 2px;
         border-color: #eceaea;
         border-style: solid;
-        border-radius: 1px;
+        border-radius: 10px;
+        transition: .9s ease;
      
+     }
+
+     #web-design:hover{
+        filter: grayscale(1);
      }
 
      #web-text{
@@ -310,10 +316,14 @@ html{
         border-width: 2px;
         border-color: #eceaea;
         border-style: solid;
-        border-radius: 1px;
+        border-radius: 10px;
+        transition: 1s ease ;
      }
 
-
+#graphic-design:hover{
+    
+    filter: invert(.9);
+}
 
 
       #portfolio-header {
@@ -441,4 +451,22 @@ display: flex;
     top: -725px;
 
 }
+}
+
+
+.graphic-design-portfolio-cover{
+    border-radius: 8px;
+}
+
+.header-for-contact-page{
+    display: flex;
+}
+
+.socials-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-for-about-page{
+    display: flex;
 }
