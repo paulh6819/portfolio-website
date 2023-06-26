@@ -26,6 +26,7 @@ html{
     
   }
 
+
         .navbar {
             
             justify-content: space-between;
@@ -190,7 +191,8 @@ html{
        #logo{
         height: 320px;
         animation: staticFadeIn 4s linear;
-        border-radius: 5px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
        
        }
 
@@ -454,9 +456,7 @@ display: flex;
 }
 
 
-.graphic-design-portfolio-cover{
-    border-radius: 8px;
-}
+
 
 .header-for-contact-page{
     display: flex;
@@ -469,4 +469,33 @@ display: flex;
 
 .header-for-about-page{
     display: flex;
+}
+
+
+
+.contact-info{
+    border-width: 2px;
+        border-color: #eceaea;
+        border-style: solid;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+}
+
+.contact-form{
+    border-width: 2px;
+    border-color: #eceaea;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.socials-animation-contact{
+    position: relative;
+    bottom: 500px;
 }
