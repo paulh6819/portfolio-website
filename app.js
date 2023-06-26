@@ -4,8 +4,22 @@ Notes on things to do for website.
 
 1. SVG animiation. I think maybe the website will open with my name being drawn, or perhaps I will have myself traced (drawn) and then my face will fade in and appear. Maybe I'll have my logo traced.
 2. maybe use js.3 3d animiation???
-3.
+3. make things bounce when the user clicks on them. (i already have some code up in chat GPT)
+4. more growth hover effects on things that are clickable (to indicate they are clickable)
+5. click splash exploed effect or soemthing
 */
+
+document.addEventListener("DOMContentLoaded", (event) =>{
+   document.querySelector(".graphic-design-portfolio-link").addEventListener("click", function(){
+    console.log("Element was clicked");
+    this.classList.add("bounce");
+    setTimeout(() => {
+        this.classList.remove("bounce");
+        console.log("this bounce click thing is working")
+    
+   }, 600);
+});
+});
 
 
 
