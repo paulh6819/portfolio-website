@@ -1,3 +1,13 @@
+/*
+
+Notes on things to do for website.
+
+1. SVG animiation. I think maybe the website will open with my name being drawn, or perhaps I will have myself traced (drawn) and then my face will fade in and appear. Maybe I'll have my logo traced.
+2. maybe use js.3 3d animiation???
+3.
+*/
+
+
 
 let graphicDesignElement = document.getElementById("graphic-design");
 

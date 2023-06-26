@@ -492,10 +492,52 @@ display: flex;
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
-    width: 100%;
+    
 }
 
 .socials-animation-contact{
     position: relative;
     bottom: 500px;
+}
+
+.design-philosophy-about{
+    border-width: 2px;
+    border-color: #eceaea;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.hey-about{
+    border-width: 2px;
+    border-color: #eceaea;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.photo-about{
+
+    border-width: 2px;
+    border-color: #eceaea;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
 }
