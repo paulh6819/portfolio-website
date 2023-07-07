@@ -355,6 +355,12 @@ html{
        
         z-index: 1;
     }
+
+
+    .class-menu{
+        position: relative;
+        left: 1000px;
+    }
     
     .hamburger {
         font-size: 2em;
@@ -372,8 +378,14 @@ html{
         
         left: 275px;
         
-        font-size: 17px;
-        transform: translateY(50px);
+        font-size: 22px;
+        transform: translateY(22px);
+        padding: 10px;
+        
+
+       
+        
+        border-radius: 10px;
         
     }
     
@@ -486,7 +498,6 @@ display: flex;
     margin: auto;
     justify-content: center;
 }
-
 
 
 .contact-info{
@@ -620,3 +631,131 @@ display: flex;
     padding-right: 10px;
 
 }
+
+
+@media only screen and (min-width: 500px){
+    .about-menu{
+    
+        margin-left: 80px;
+                   
+    }
+    }
+
+
+
+
+
+@media only screen and (min-width: 550px){
+    .about-menu{
+    
+        margin-left: 130px;
+                   
+    }
+    }
+
+
+
+@media only screen and (min-width: 600px){
+.about-menu{
+
+    margin-left: 180px;
+               
+}
+}
+
+@media only screen and (min-width: 650px){
+    .about-menu{
+    
+        margin-left: 210px;
+                   
+    }
+    }
+
+@media only screen and (min-width: 700px){
+    .about-menu{
+    
+        margin-left: 240px;
+                   
+    }
+    }
+
+    @media only screen and (min-width: 750px){
+        .about-menu{
+        
+            margin-left: 290px;
+                       
+        }
+        }
+@media only screen and (min-width: 850px){
+    .about-menu{
+    
+        margin-left: 365px;
+                   
+    }
+    }
+@media only screen and (min-width: 900px){
+    .about-menu{
+    
+        margin-left: 400px;
+                   
+    }
+    }
+
+
+    @media only screen and (min-width: 950px){
+        .about-menu{
+        
+            margin-left: 440px;
+                       
+        }
+        }
+
+
+
+        @media only screen and (min-width: 1050px){
+            .about-menu{
+            
+                margin-left: 580px;
+                           
+            }
+            }
+
+            @media only screen and (min-width: 1150px){
+                .about-menu{
+                
+                    margin-left: 530px;
+                               
+                }
+                }
+    @media only screen and (min-width: 1200px){
+        .about-menu{
+        
+            margin-left: 530px;
+                       
+        }
+        }
+
+        @media only screen and (min-width: 1350px){
+            .about-menu{
+            
+                margin-right: 750px;
+                           
+            }
+            }
+       
+        @media only screen and (min-width: 1400px){
+            .about-menu{
+            
+                margin-right: 800px;
+                           
+            }
+            }
+
+    @media only screen and (min-width: 1500px){
+        .about-menu{
+        
+            margin-right: 10px;
+                       
+        }
+        }
+    
