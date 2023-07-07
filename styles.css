@@ -10,7 +10,7 @@
     font-family: 'Neue Montreal';
     margin: 0;
     padding: 0;
-    background: #f2f2f2;
+    background: #fcfcfc;
     overflow-x: hidden;
         }
 
@@ -42,7 +42,7 @@ html{
         }
 
         .navbar a:hover {
-            color: #f2f2f2;
+            color: #fcfcfc;
         }
 
         .header {
@@ -349,7 +349,7 @@ html{
     .menu {
         position: absolute;
         opacity: 0;     
-        background-color: #f6f1f1;
+        background-color: #fcfcfc;
         transform: translateY(-100%);
         transition: background-color 2s ease-in-out, opacity 2s ease-in-out,transform 2s ease-in-out;; 
        
@@ -469,15 +469,28 @@ html{
    
 }
 
-@media ( min-width: 600px){
+@media ( min-width: 350px){
 .function-based-values-demo{
 display: flex;
     position: relative;
     
-    top: -725px;
+    top: -475px;
+    
 
 }
 }
+
+@media ( min-width: 350px){
+    .function-based-values-b{
+    display: flex;
+        position: relative;
+        
+        top: -740px;
+        margin: auto;
+        
+    
+    }
+    }
 
 
 
@@ -522,9 +535,14 @@ display: flex;
     
 }
 
+.contact-social-container{
+    display: flex;
+}
+
 .socials-animation-contact{
+    display: flex;
     position: relative;
-    bottom: 500px;
+   
 }
 
 .design-philosophy-about{
@@ -759,3 +777,15 @@ display: flex;
         }
         }
     
+        .contact-social-container{
+        border-width: 2px;
+    border-color: #eceaea;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+       height: 250px
+    
+        }
