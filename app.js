@@ -10,6 +10,8 @@ Notes on things to do for website.
 6. I think all the contents on the portfolio page need to slowly ease in/transition just like on the page that lets you click into a portfolio
 7. The slow scale up I saw on the hover effect for the images inside the image container on the herman miller website, effectively making it look animaited, was really cool, do this.
 8. I want the entire page to "darken" like the light went out, or the opactity to lower on the rest of the page when you hit the menu, inorder to accentuate the menu
+9. See if i can get the contact page menu to mimic the behavior of the portfolio pages menu
+10. if I'm going to keep the web developemnt seciton big for computer screen size, I need to use the AI web app to make it bigger
 */
 
 document.addEventListener("DOMContentLoaded", (event) =>{
@@ -35,6 +37,20 @@ document.getElementById("graphic-design").addEventListener('click', function(){
 } );} else {
   console.log("there is no graphic design clickable poster here")
 }
+
+
+
+let webDesignElement = document.getElementById("web-design");
+
+if (graphicDesignElement){
+
+document.getElementById("web-design").addEventListener('click', function(){
+  window.location.href = "web-developement.html "
+} );} else {
+  console.log("there is no graphic design clickable poster here")
+}
+
+
 
 document.addEventListener('DOMContentLoaded', (event) =>{
   const hamburger = document.querySelector('.hamburger');
