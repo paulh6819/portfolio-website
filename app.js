@@ -9,6 +9,7 @@ Notes on things to do for website.
 5. click splash exploed effect or soemthing
 6. I think all the contents on the portfolio page need to slowly ease in/transition just like on the page that lets you click into a portfolio
 7. The slow scale up I saw on the hover effect for the images inside the image container on the herman miller website, effectively making it look animaited, was really cool, do this.
+8. I want the entire page to "darken" like the light went out, or the opactity to lower on the rest of the page when you hit the menu, inorder to accentuate the menu
 */
 
 document.addEventListener("DOMContentLoaded", (event) =>{

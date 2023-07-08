@@ -340,9 +340,21 @@ html{
 
     .header-portfolio{
 
-        display: flex
-        ;
+        display: flex;
+
+        
     }
+
+
+
+      .header-portfolio-graphic-design{
+
+        display: flex;
+position: relative;
+        top: 100px;
+        
+    }
+
 
 
   
@@ -353,6 +365,18 @@ html{
         transform: translateY(-100%);
         transition: background-color 2s ease-in-out, opacity 2s ease-in-out,transform 2s ease-in-out;; 
        
+        z-index: 1;
+    }
+
+    .menu-graphic-design-portfolio {
+        position: absolute;
+        opacity: 0;     
+        background-color: #fcfcfc;
+        transform: translateY(-100%);
+        transform: translateX(-10%);
+        transition: background-color 2s ease-in-out, opacity 2s ease-in-out,transform 2s ease-in-out;; 
+       margin-left: -90px;
+       margin-bottom: -10px;
         z-index: 1;
     }
 
@@ -768,14 +792,29 @@ display: flex;
                            
             }
             }
+            @media only screen and (min-width: 1450px){
+                .about-menu{
+                
+                    margin-right: 875px;
+                               
+                }
+                }
+                @media only screen and (min-width: 1500px){
+                    .about-menu{
+                    
+                        margin-right: 10000px;
+                                   
+                    }
+                    }
+                    @media only screen and (min-width: 1600px){
+                        .about-menu{
+                        
+                            margin-right: 100px;
+                                       
+                        }
+                        }
 
-    @media only screen and (min-width: 1500px){
-        .about-menu{
-        
-            margin-right: 10px;
-                       
-        }
-        }
+  
     
         .contact-social-container{
         border-width: 2px;
@@ -789,3 +828,5 @@ display: flex;
        height: 250px
     
         }
+
+        
